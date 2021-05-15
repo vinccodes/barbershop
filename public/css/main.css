@@ -6,12 +6,18 @@
 }
 
 :root {
-    --main-bg-color: #c5d7bd;
-  }
+    --main-bg-color: #1b1717;
+}
 
-  body {
+body {
       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-  }
+}
+
+
+/* Utility Classes */
+.lg-heading {
+    font-size: 2.1rem;
+}
 
 /* Navbar */
 #navbar {
@@ -22,6 +28,11 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--main-bg-color);
+}
+
+#navbar #logo {
+    color: #ffffff;
+    margin-left: 25px;
 }
 
 #navbar .nav-link-container {
@@ -73,3 +84,47 @@
     font-size: 3.5rem;
     z-index: 3;
 }
+
+/* Our Team */
+#team {
+    text-align: center;
+    padding: 25px;
+}
+
+#team .container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.team-member {
+    padding: 15px;
+}
+.team-member img {
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.member-name {
+    font-size: 1.25rem;
+}
+
+/* Gallery */
+#gallery {
+    text-align: center;
+    background-color: var(--main-bg-color);
+    height: 600px;
+    padding: 25px;
+}
+
+#gallery h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    
+   
+}
+
